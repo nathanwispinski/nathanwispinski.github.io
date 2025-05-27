@@ -1,0 +1,87 @@
+---
+layout: blog
+title: Delayed reaching retinotopy
+---
+
+<center><h1>Delayed reaching retinotopy in EEG</h1></center>
+
+This project is in progress, but data collection is currently delayed due to COVID-19.
+<br><br>
+
+This project is being done in collaboration with 
+<a href="https://scottstone.ca/" target="_blank">Scott Stone</a>, and is supervised by 
+<a href="https://sites.psych.ualberta.ca/attentionandactionlab/" target="_blank">Anthony Singhal</a>.
+
+<br><br>
+
+<hr>
+<br>
+
+In a 
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073629" target="_blank">2013 paper</a>, 
+Anthony and colleagues demonstrated that delayed action re-recruits visual perception. 
+Participants in a MRI scanner briefly saw an object before the lights were turned off. 
+After 18 seconds in the dark, a sound would tell the participants to reach and grab the object they had seen.
+<br><br>
+
+<center>
+<img class="blog-image" src="/assets/delayedreaching/grasparatus.png" alt="Grasparatus at Western University" width="40%">
+</center>
+<br><br>
+
+What do you think the brain is doing during those 18 seconds?
+<br><br>
+
+One idea might be that there is an increase in activity where the object is represented in the brain, 
+and that this activity continues until you need to use this representation for action.
+<br><br>
+
+What they actually found is that early visual areas of the brain are briefly active when the lights are on and you can see the object, 
+but then come back down to baseline when the lights are turned off. However, when cued to reach and grab the object, 
+these same areas become active again, even when you cannot see anything.
+<br><br>
+
+You can see this pattern in the figure below. 
+There is an increase in activity when the lights are on (at 0 seconds), a decrease while you are waiting in the dark, 
+and then an increase again after the go cue (at 18 seconds). Because of how fMRI responses work, these changes are delayed by about 6 seconds.
+<br><br>
+
+<center>
+<img class="blog-image" src="/assets/delayedreaching/delayedreach_singhalresults.png" alt="Singhal et al. 2013 Results" width="50%">
+</center>
+<br><br>
+
+
+While fMRI gives us relatively good spatial resolution (where things are happening in the brain), 
+it has relatively poor temporal resolution (when things are happening in the brain). 
+However, measuring brain activity using EEG tends to give us the reverse: poor spatial resolution, but good temporal resolution.
+
+<br><br>
+<a href="https://scottstone.ca/" target="_blank">Scott Stone</a> 
+and I put together a task to get at the re-recruitment of visual perception using EEG.
+
+<br><br>
+Below is the task timeline. A circle appears in one of the four quadrants on a screen, and after some delay you are cued to reach and touch the circle. 
+On half of the trials the circle stays on the screen (Vision), and on the other half the circle disappears (No Vision).
+<br><br>
+
+<center>
+<img class="blog-image" src="/assets/delayedreaching/delayedreach_task.png" alt="Task" width="50%">
+</center>
+<br><br>
+
+While people are doing this task, we record their hand movements (blue line), eye movements (yellow circle), and brain activity (top left). 
+Below is a video of me doing the task.
+<br><br>
+
+<center>
+<video width="70%" class="blog-video" id="task-video" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="/assets/delayedreaching/dataStreamsExample.mp4" type="video/mp4" controls=""></video>
+</center>
+<br><br>
+
+When this project starts back up, we will be looking at this data using source modelling, and using machine learning classifiers.
+<br><br>
+
+<center>
+<img class="blog-image" src="/assets/delayedreaching/photogrammetry.PNG" alt="Photogrammetry" width="20%">
+</center>

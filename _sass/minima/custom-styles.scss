@@ -1,0 +1,14 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+
+/** minima/initialize.scss */
+@import 
+    // Css-modal
+    'drublic-css-modal/modal',
+    'drublic-css-modal/plugins/modal-gallery',
+    'drublic-css-modal/plugins/modal-spinner',
+    // Highlighter css
+    url('zenburn.css'),
+    // Staticman comments styling
+    '../comment-styles.scss';
